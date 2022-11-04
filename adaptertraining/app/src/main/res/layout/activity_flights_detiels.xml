@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlightsDetiels">
+
+    <TextView
+        android:id="@+id/disprice"
+        android:layout_width="203dp"
+        android:layout_height="66dp"
+        android:layout_alignStart="@+id/disimage"
+        android:layout_alignTop="@+id/disimage"
+        android:layout_alignEnd="@+id/disimage"
+        android:layout_alignBottom="@+id/disimage"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-281dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/disimage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="338dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/disname"
+        android:layout_width="202dp"
+        android:layout_height="197dp"
+        android:layout_alignStart="@+id/disimage"
+        android:layout_alignTop="@+id/disimage"
+        android:layout_alignEnd="@+id/disimage"
+        android:layout_alignBottom="@+id/disimage"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-216dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+</RelativeLayout>
